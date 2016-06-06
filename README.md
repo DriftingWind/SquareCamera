@@ -24,6 +24,10 @@ repositories {
 dependencies {
     compile 'com.github.boxme:squarecamera:1.1.0'
 }
+
+修改相册内的名称可以在自己的项目中定义 
+ <string name="squarecamera__app_name">@string/app_name</string> 
+用自己的项目名称替换拍照后用得路径
 ```
 
 ## Example
